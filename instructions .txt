@@ -1,0 +1,3 @@
+To generate a requirements.txt file use.
+>>pip install pipreqs
+pipreqs /path/to/project
