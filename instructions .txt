@@ -1,3 +1,23 @@
 To generate a requirements.txt file use.
 >>pip install pipreqs
 pipreqs /path/to/project
+
+>>Create a new app (item ) python manage.py startapp item
+>>Register the app in the settings
+>>Open App and register a model category in the App
+>>After Creating the Model make migrations python manage.py makemigrations
+>>Make Migrations, python manage.py migrate
+>>Add a Superuser python manage.py createsuperuser 
+>>Add the Models to be visible in the admin section (admin.py)
+    # Register your models here.
+    from .models import Category
+
+admin.site.register(Category)
+
+>>Sewtr how items are displayed in the admin section: go to model and edit the (class Meta)
+manipulates view of things on admin dashboard
+
+>> To deal with image field install pillow
+>> make & run Migrations
+
+>>>IN the settings add instructive directory for media files (images, and the base directory for them)
