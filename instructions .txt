@@ -21,3 +21,10 @@ manipulates view of things on admin dashboard
 >> make & run Migrations
 
 >>>IN the settings add instructive directory for media files (images, and the base directory for them)
+
+#RETREIVE items from db 
+>>import the modelmodels in the views 
+>>show items in the html
+
+##enable images view ## GO to URLS.config
+import settings, static 
